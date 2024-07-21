@@ -1,6 +1,7 @@
 package ru.skypro.algorithm_basics;
 
 public interface IntegerList {
+
     // Добавление элемента.
     // Вернуть добавленный элемент
     // в качестве результата выполнения.
@@ -54,7 +55,7 @@ public interface IntegerList {
     // Вернуть элемент или исключение,
     // если выходит за рамки фактического
     // количества элементов.
-   Integer get(int index);
+    Integer get(int index);
 
     // Сравнить текущий список с другим.
     // Вернуть true/false или исключение,
@@ -72,11 +73,7 @@ public interface IntegerList {
     // Удалить все элементы из списка.
     void clear();
 
-    // Создать новый массив
-    // из строк в списке
-    // и вернуть его.
+
     Integer[] toArray();
-    void sortBubble(int[] arr);
-    void sortSelection(int[] arr);
-    void sortInsertion(int[] arr);
+
 }
